@@ -13,9 +13,7 @@
 ## 快速开始
 
 ### 1. 启动项目
-在IDEA中运行 `FastjsonVulnDemoApplication` 类，或执行：
-```bash
-mvn spring-boot:run
+在IDEA中运行 `FastjsonVulnDemoApplication` 类
 
 ### ⚠️ 安全提示
 仅限授权测试：本项目仅供安全研究、漏洞复现和教育用途
