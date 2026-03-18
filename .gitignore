@@ -1,0 +1,31 @@
+# 编译生成的文件
+/target/
+*.class
+ECHO is off.
+# IDE 相关文件
+.idea/
+*.iml
+.settings/
+.project
+.classpath
+.factorypath
+ECHO is off.
+# 日志文件
+*.log
+ECHO is off.
+# 系统文件
+.DS_Store
+Thumbs.db
+ECHO is off.
+# Maven相关（保留.mvn目录用于wrapper，但排除依赖）
+.mvn/wrapper/
+.mvn/repository/
+ECHO is off.
+# 打包文件
+*.war
+*.jar
+*.zip
+*.tar.gz
+ECHO is off.
+# 测试报告
+/test-output/
